@@ -23,12 +23,14 @@
 
   .links
   {
+    height: 50px;
     display:flex;
     justify-content: flex-end;
   }
 
   .signup{
     margin-left: 1000px;
+    height:50px;
   }
 
   .login
@@ -44,8 +46,8 @@
 
   .menu
   {
-    font-size:20px;
-    height: 30px;
+    font-size:25px;
+    height: 65px;
     
     display: flex;
     justify-content: space-between;
