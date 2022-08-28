@@ -7,9 +7,13 @@
 
 .menu-container {
     
+    font-weight:bold;
+    font-style:italic;
      /* Red */
+    color: white;
+    background-color:red;
     padding: 20px 0;
-
+    text-align: right;
     display: flex;
     justify-content:center;
   }
@@ -17,4 +21,28 @@
   .signup
   {
     margin-left:auto;
+  }
+
+  .links
+  {
+    display:flex;
+    justify-content: flex-end;
+  }
+
+  .signup{
+    margin-left: 1000px;
+  }
+
+  .header-container
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu
+  {
+    font-size: 25px;
+    text-decoration:underline;
+    display: flex;
+    justify-content: space-between;
   }
