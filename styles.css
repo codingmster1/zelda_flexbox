@@ -80,3 +80,23 @@
     margin-right:auto;
     justify-content: center;
   }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color:lightcoral;
+    height: 200px;
+    flex: 1;
+  }
+  
+  .footer-one,
+  .footer-three {
+    background-color: red;
+    flex: initial;
+    width: 300px;
+    
+  }
